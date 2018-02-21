@@ -1,0 +1,51 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: T1Clear - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x412 /fo"Release/T1Clear.res" /d "NDEBUG" /d "_AFXDLL" "D:\work\ÏþÐÇ\ATM\20100608\Common\T1Clear\T1Clear.rc"" 
+Creating temporary file "C:\DOCUME~1\LY\LOCALS~1\Temp\RSP1B8.tmp" with contents
+[
+/nologo /Zp1 /MD /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Release/T1Clear.pch" /Yu"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"D:\work\ÏþÐÇ\ATM\20100608\Common\T1Clear\T1Clear.cpp"
+"D:\work\ÏþÐÇ\ATM\20100608\Common\T1Clear\T1ClearDlg.cpp"
+"D:\work\ÏþÐÇ\ATM\20100608\Common\T1Clear\TeoStatic.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\LY\LOCALS~1\Temp\RSP1B8.tmp" 
+Creating temporary file "C:\DOCUME~1\LY\LOCALS~1\Temp\RSP1B9.tmp" with contents
+[
+/nologo /Zp1 /MD /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Release/T1Clear.pch" /Yc"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"D:\work\ÏþÐÇ\ATM\20100608\Common\T1Clear\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\LY\LOCALS~1\Temp\RSP1B9.tmp" 
+Creating temporary file "C:\DOCUME~1\LY\LOCALS~1\Temp\RSP1BA.tmp" with contents
+[
+/nologo /subsystem:windows /incremental:no /pdb:"\T1Atm\App\LibRele/T1Clear.pdb" /machine:I386 /out:"\T1Atm\App\ExeRele/T1Clear.exe" 
+".\Release\StdAfx.obj"
+".\Release\T1Clear.obj"
+".\Release\T1ClearDlg.obj"
+".\Release\TeoStatic.obj"
+".\Release\T1Clear.res"
+]
+Creating command line "link.exe @C:\DOCUME~1\LY\LOCALS~1\Temp\RSP1BA.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+T1Clear.cpp
+T1ClearDlg.cpp
+TeoStatic.cpp
+Generating Code...
+Linking...
+
+
+
+<h3>Results</h3>
+T1Clear.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

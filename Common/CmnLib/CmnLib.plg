@@ -1,0 +1,100 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: CmnLib - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x412 /fo"Release/CmnLib.res" /d "NDEBUG" /d "_AFXDLL" "D:\晓星\邮储统一平台\Source\Common\CmnLib\CmnLib.rc"" 
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP9D.tmp" with contents
+[
+/nologo /Zp1 /MD /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_MBCS" /D "_AFXEXT" /D "_WINDLL" /D "_AFXDLL" /FR"Release/" /Fp"Release/CmnLib.pch" /Yu"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"D:\晓星\邮储统一平台\Source\Common\CmnLib\CmnLib.cpp"
+"D:\晓星\邮储统一平台\Source\Common\CmnLib\CodeCvt.cpp"
+"D:\晓星\邮储统一平台\Source\Common\CmnLib\Cryptogram.cpp"
+"D:\晓星\邮储统一平台\Source\Common\CmnLib\Delay.cpp"
+"D:\晓星\邮储统一平台\Source\Common\CmnLib\hy_auth.cpp"
+"D:\晓星\邮储统一平台\Source\Common\CmnLib\hy_monitor.cpp"
+"D:\晓星\邮储统一平台\Source\Common\CmnLib\Profile.cpp"
+"D:\晓星\邮储统一平台\Source\Common\CmnLib\Registry.cpp"
+"D:\晓星\邮储统一平台\Source\Common\CmnLib\RunExec.cpp"
+"D:\晓星\邮储统一平台\Source\Common\CmnLib\ShareMem.cpp"
+"D:\晓星\邮储统一平台\Source\Common\CmnLib\Trace.cpp"
+"D:\晓星\邮储统一平台\Source\Common\CmnLib\TypeCvt.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP9D.tmp" 
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP9E.tmp" with contents
+[
+/nologo /Zp1 /MD /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_MBCS" /D "_AFXEXT" /D "_WINDLL" /D "_AFXDLL" /FR"Release/" /Fp"Release/CmnLib.pch" /Yc"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"D:\晓星\邮储统一平台\Source\Common\CmnLib\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP9E.tmp" 
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP9F.tmp" with contents
+[
+/nologo /subsystem:windows /dll /incremental:no /pdb:"\T1Atm\App\LibRele/CmnLib.pdb" /machine:I386 /def:".\CmnLib.def" /out:"\T1Atm\App\ExeRele/CmnLib.dll" /implib:"\T1Atm\App\LibRele/CmnLib.lib" 
+".\Release\CmnLib.obj"
+".\Release\CodeCvt.obj"
+".\Release\Cryptogram.obj"
+".\Release\Delay.obj"
+".\Release\hy_auth.obj"
+".\Release\hy_monitor.obj"
+".\Release\Profile.obj"
+".\Release\Registry.obj"
+".\Release\RunExec.obj"
+".\Release\ShareMem.obj"
+".\Release\StdAfx.obj"
+".\Release\Trace.obj"
+".\Release\TypeCvt.obj"
+".\Release\CmnLib.res"
+"..\..\..\..\..\T1atm\App\LibRele\MonitorClient.lib"
+"..\..\..\..\..\T1atm\App\LibRele\FJ8000Identify-VS6-MD-Release.lib"
+]
+Creating command line "link.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP9F.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+CmnLib.cpp
+CodeCvt.cpp
+Cryptogram.cpp
+Delay.cpp
+hy_auth.cpp
+hy_monitor.cpp
+Profile.cpp
+Registry.cpp
+RunExec.cpp
+ShareMem.cpp
+Trace.cpp
+TypeCvt.cpp
+Generating Code...
+Linking...
+   Creating library \T1Atm\App\LibRele/CmnLib.lib and object \T1Atm\App\LibRele/CmnLib.exp
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSPA3.tmp" with contents
+[
+/nologo /o"\T1Atm\App\LibRele/CmnLib.bsc" 
+".\Release\StdAfx.sbr"
+".\Release\CmnLib.sbr"
+".\Release\CodeCvt.sbr"
+".\Release\Cryptogram.sbr"
+".\Release\Delay.sbr"
+".\Release\hy_auth.sbr"
+".\Release\hy_monitor.sbr"
+".\Release\Profile.sbr"
+".\Release\Registry.sbr"
+".\Release\RunExec.sbr"
+".\Release\ShareMem.sbr"
+".\Release\Trace.sbr"
+".\Release\TypeCvt.sbr"]
+Creating command line "bscmake.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSPA3.tmp"
+Creating browse info file...
+<h3>Output Window</h3>
+
+
+
+<h3>Results</h3>
+CmnLib.dll - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

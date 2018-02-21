@@ -1,0 +1,398 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: ProCtrl - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x412 /fo"Release/ProCtrl.res" /d "NDEBUG" /d "_AFXDLL" "D:\代码\总行A\v060901_20140419\v060901\Common\Device\Dll\ProCtrl\ProCtrl.rc"" 
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP636.tmp" with contents
+[
+/nologo /Zp1 /MD /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_WINDLL" /D "_AFXDLL" /D "_MBCS" /D "_AFXEXT" /Fp"Release/ProCtrl.pch" /Yu"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"D:\代码\总行A\v060901_20140419\v060901\Common\Device\Dll\ProCtrl\ErrHost.cpp"
+"D:\代码\总行A\v060901_20140419\v060901\Common\Device\Dll\ProCtrl\ErrStack.cpp"
+"D:\代码\总行A\v060901_20140419\v060901\Common\Device\Dll\ProCtrl\ProCtrl.cpp"
+"D:\代码\总行A\v060901_20140419\v060901\Common\Device\Dll\ProCtrl\Profile.cpp"
+"D:\代码\总行A\v060901_20140419\v060901\Common\Device\Dll\ProCtrl\Total.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP636.tmp" 
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP637.tmp" with contents
+[
+/nologo /Zp1 /MD /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_WINDLL" /D "_AFXDLL" /D "_MBCS" /D "_AFXEXT" /Fp"Release/ProCtrl.pch" /Yc"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"D:\代码\总行A\v060901_20140419\v060901\Common\Device\Dll\ProCtrl\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP637.tmp" 
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP638.tmp" with contents
+[
+CmnLib.lib /nologo /subsystem:windows /dll /incremental:no /pdb:"\T1Atm\App\LibRele/ProCtrl.pdb" /machine:I386 /def:".\ProCtrl.def" /out:"\T1Atm\App\ExeRele/ProCtrl.dll" /implib:"\T1Atm\App\LibRele/ProCtrl.lib" 
+".\Release\ErrHost.obj"
+".\Release\ErrStack.obj"
+".\Release\ProCtrl.obj"
+".\Release\Profile.obj"
+".\Release\StdAfx.obj"
+".\Release\Total.obj"
+".\Release\ProCtrl.res"
+]
+Creating command line "link.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP638.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+ErrHost.cpp
+ErrStack.cpp
+ProCtrl.cpp
+Profile.cpp
+Total.cpp
+Generating Code...
+Linking...
+   Creating library \T1Atm\App\LibRele/ProCtrl.lib and object \T1Atm\App\LibRele/ProCtrl.exp
+<h3>
+--------------------Configuration: NetCtrl - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x412 /fo"Release/NetCtrl.res" /d "NDEBUG" /d "_AFXDLL" "D:\代码\总行A\v060901_20140419\v060901\Common\Device\Dll\NetCtrl\NetCtrl.rc"" 
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP63C.tmp" with contents
+[
+/nologo /Zp1 /MD /W3 /GX /O2 /I "../seed" /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_WINDLL" /D "_AFXDLL" /D "_MBCS" /D "_AFXEXT" /Fr"Release/" /Fp"Release/NetCtrl.pch" /Yu"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"D:\代码\总行A\v060901_20140419\v060901\Common\Device\Dll\NetCtrl\NetCtrl.cpp"
+"D:\代码\总行A\v060901_20140419\v060901\Common\Device\Dll\NetCtrl\NetWork.cpp"
+"D:\代码\总行A\v060901_20140419\v060901\Common\Device\Dll\NetCtrl\Sna.cpp"
+"D:\代码\总行A\v060901_20140419\v060901\Common\Device\Dll\NetCtrl\SnaCtrl.cpp"
+"D:\代码\总行A\v060901_20140419\v060901\Common\Device\Dll\NetCtrl\SocketCtrl.cpp"
+"D:\代码\总行A\v060901_20140419\v060901\Common\Device\Dll\NetCtrl\SocketCtrl2.cpp"
+"D:\代码\总行A\v060901_20140419\v060901\Common\Device\Dll\NetCtrl\SocketCtrl3.cpp"
+"D:\代码\总行A\v060901_20140419\v060901\Common\Device\Dll\NetCtrl\SocketCtrlB.cpp"
+"D:\代码\总行A\v060901_20140419\v060901\Common\Device\Dll\NetCtrl\Tcpip.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP63C.tmp" 
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP63D.tmp" with contents
+[
+/nologo /Zp1 /MD /W3 /GX /O2 /I "../seed" /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_WINDLL" /D "_AFXDLL" /D "_MBCS" /D "_AFXEXT" /Fr"Release/" /Fp"Release/NetCtrl.pch" /Yc"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"D:\代码\总行A\v060901_20140419\v060901\Common\Device\Dll\NetCtrl\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP63D.tmp" 
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP63E.tmp" with contents
+[
+W32api.lib CmnLib.lib /nologo /subsystem:windows /dll /incremental:no /pdb:"\T1Atm\App\LibRele/NetCtrl.pdb" /machine:I386 /def:".\NetCtrl.def" /out:"\T1Atm\App\ExeRele/NetCtrl.dll" /implib:"\T1Atm\App\LibRele/NetCtrl.lib" 
+".\Release\NetCtrl.obj"
+".\Release\NetWork.obj"
+".\Release\Sna.obj"
+".\Release\SnaCtrl.obj"
+".\Release\SocketCtrl.obj"
+".\Release\SocketCtrl2.obj"
+".\Release\SocketCtrl3.obj"
+".\Release\SocketCtrlB.obj"
+".\Release\StdAfx.obj"
+".\Release\Tcpip.obj"
+".\Release\NetCtrl.res"
+"\T1Atm\App\LibRele\ProCtrl.lib"
+]
+Creating command line "link.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP63E.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+NetCtrl.cpp
+NetWork.cpp
+Sna.cpp
+SnaCtrl.cpp
+SocketCtrl.cpp
+SocketCtrl2.cpp
+SocketCtrl3.cpp
+SocketCtrlB.cpp
+Tcpip.cpp
+Generating Code...
+Linking...
+   Creating library \T1Atm\App\LibRele/NetCtrl.lib and object \T1Atm\App\LibRele/NetCtrl.exp
+<h3>
+--------------------Configuration: ComCtrl - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x412 /fo"Release/ComCtrl.res" /d "NDEBUG" /d "_AFXDLL" "D:\代码\总行A\v060901_20140419\v060901\Common\Device\Dll\ComCtrl\ComCtrl.rc"" 
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP642.tmp" with contents
+[
+/nologo /Zp1 /MD /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_WINDLL" /D "_AFXDLL" /D "_MBCS" /D "_AFXEXT" /Fp"Release/ComCtrl.pch" /Yu"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"D:\代码\总行A\v060901_20140419\v060901\Common\Device\Dll\ComCtrl\ComCtrl.cpp"
+"D:\代码\总行A\v060901_20140419\v060901\Common\Device\Dll\ComCtrl\ComDvr.cpp"
+"D:\代码\总行A\v060901_20140419\v060901\Common\Device\Dll\ComCtrl\ComEtc.cpp"
+"D:\代码\总行A\v060901_20140419\v060901\Common\Device\Dll\ComCtrl\ComIrd.cpp"
+"D:\代码\总行A\v060901_20140419\v060901\Common\Device\Dll\ComCtrl\ComPort.cpp"
+"D:\代码\总行A\v060901_20140419\v060901\Common\Device\Dll\ComCtrl\ComRic.cpp"
+"D:\代码\总行A\v060901_20140419\v060901\Common\Device\Dll\ComCtrl\ComUps.cpp"
+"D:\代码\总行A\v060901_20140419\v060901\Common\Device\H\Dll\Serial.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP642.tmp" 
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP643.tmp" with contents
+[
+/nologo /Zp1 /MD /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_WINDLL" /D "_AFXDLL" /D "_MBCS" /D "_AFXEXT" /Fp"Release/ComCtrl.pch" /Yc"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"D:\代码\总行A\v060901_20140419\v060901\Common\Device\Dll\ComCtrl\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP643.tmp" 
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP644.tmp" with contents
+[
+CmnLib.lib dcrf32.lib Tcsy2008.lib /nologo /subsystem:windows /dll /incremental:no /pdb:"\T1Atm\App\LibRele/ComCtrl.pdb" /machine:I386 /def:".\ComCtrl.def" /out:"\T1Atm\App\ExeRele/ComCtrl.dll" /implib:"\T1Atm\App\LibRele/ComCtrl.lib" 
+".\Release\ComCtrl.obj"
+".\Release\ComDvr.obj"
+".\Release\ComEtc.obj"
+".\Release\ComIrd.obj"
+".\Release\ComPort.obj"
+".\Release\ComRic.obj"
+".\Release\ComUps.obj"
+".\Release\Serial.obj"
+".\Release\StdAfx.obj"
+".\Release\ComCtrl.res"
+]
+Creating command line "link.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP644.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+ComCtrl.cpp
+ComDvr.cpp
+ComEtc.cpp
+ComIrd.cpp
+ComPort.cpp
+ComRic.cpp
+ComUps.cpp
+Serial.cpp
+Generating Code...
+Linking...
+   Creating library \T1Atm\App\LibRele/ComCtrl.lib and object \T1Atm\App\LibRele/ComCtrl.exp
+<h3>
+--------------------Configuration: LanCtrl - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x412 /fo"Release/LanCtrl.res" /d "NDEBUG" /d "_AFXDLL" "D:\代码\总行A\v060901_20140419\v060901\Common\Device\Dll\LanCtrl\LanCtrl.rc"" 
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP648.tmp" with contents
+[
+/nologo /Zp1 /MD /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_WINDLL" /D "_AFXDLL" /D "_MBCS" /D "_AFXEXT" /Fp"Release/LanCtrl.pch" /Yu"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"D:\代码\总行A\v060901_20140419\v060901\Common\Device\Dll\LanCtrl\LanCtrl.cpp"
+"D:\代码\总行A\v060901_20140419\v060901\Common\Device\Dll\LanCtrl\LanPort.cpp"
+"D:\代码\总行A\v060901_20140419\v060901\Common\Device\Dll\LanCtrl\LanUps.cpp"
+"D:\代码\总行A\v060901_20140419\v060901\Common\Device\Dll\LanCtrl\SocketUps.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP648.tmp" 
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP649.tmp" with contents
+[
+/nologo /Zp1 /MD /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_WINDLL" /D "_AFXDLL" /D "_MBCS" /D "_AFXEXT" /Fp"Release/LanCtrl.pch" /Yc"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"D:\代码\总行A\v060901_20140419\v060901\Common\Device\Dll\LanCtrl\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP649.tmp" 
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP64A.tmp" with contents
+[
+CmnLib.lib /nologo /subsystem:windows /dll /incremental:no /pdb:"\T1Atm\App\LibRele/LanCtrl.pdb" /machine:I386 /def:".\LanCtrl.def" /out:"\T1Atm\App\ExeRele/LanCtrl.dll" /implib:"\T1Atm\App\LibRele/LanCtrl.lib" 
+".\Release\LanCtrl.obj"
+".\Release\LanPort.obj"
+".\Release\LanUps.obj"
+".\Release\SocketUps.obj"
+".\Release\StdAfx.obj"
+".\Release\LanCtrl.res"
+]
+Creating command line "link.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP64A.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+LanCtrl.cpp
+LanPort.cpp
+LanUps.cpp
+SocketUps.cpp
+Generating Code...
+Linking...
+   Creating library \T1Atm\App\LibRele/LanCtrl.lib and object \T1Atm\App\LibRele/LanCtrl.exp
+<h3>
+--------------------Configuration: NmsCtrl - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x804 /fo"Release/NmsCtrl.res" /d "NDEBUG" /d "_AFXDLL" "D:\代码\总行A\v060901_20140419\v060901\Common\Device\Dll\NmsCtrl\NmsCtrl.rc"" 
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP64E.tmp" with contents
+[
+/nologo /Zp1 /MD /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_WINDLL" /D "_AFXDLL" /D "_MBCS" /D "_AFXEXT" /Fp"Release/NmsCtrl.pch" /Yu"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"D:\代码\总行A\v060901_20140419\v060901\Common\Device\Dll\NmsCtrl\NmsCtrl.cpp"
+"D:\代码\总行A\v060901_20140419\v060901\Common\Device\Dll\NmsCtrl\NmsDc.cpp"
+"D:\代码\总行A\v060901_20140419\v060901\Common\Device\Dll\NmsCtrl\NmsWork.cpp"
+"D:\代码\总行A\v060901_20140419\v060901\Common\Device\Dll\NmsCtrl\SocketNms.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP64E.tmp" 
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP64F.tmp" with contents
+[
+/nologo /Zp1 /MD /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_WINDLL" /D "_AFXDLL" /D "_MBCS" /D "_AFXEXT" /Fp"Release/NmsCtrl.pch" /Yc"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"D:\代码\总行A\v060901_20140419\v060901\Common\Device\Dll\NmsCtrl\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP64F.tmp" 
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP650.tmp" with contents
+[
+CmnLib.lib /nologo /subsystem:windows /dll /incremental:no /pdb:"\T1Atm\App\LibRele/NmsCtrl.pdb" /machine:I386 /def:".\NmsCtrl.def" /out:"\T1Atm\App\ExeRele/NmsCtrl.dll" /implib:"\T1Atm\App\LibRele/NmsCtrl.lib" 
+".\Release\NmsCtrl.obj"
+".\Release\NmsDc.obj"
+".\Release\NmsWork.obj"
+".\Release\SocketNms.obj"
+".\Release\StdAfx.obj"
+".\Release\NmsCtrl.res"
+]
+Creating command line "link.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP650.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+NmsCtrl.cpp
+NmsDc.cpp
+NmsWork.cpp
+SocketNms.cpp
+Generating Code...
+Linking...
+   Creating library \T1Atm\App\LibRele/NmsCtrl.lib and object \T1Atm\App\LibRele/NmsCtrl.exp
+<h3>
+--------------------Configuration: EtcCtrl - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x804 /fo"Release/EtcCtrl.res" /d "NDEBUG" /d "_AFXDLL" "D:\代码\总行A\v060901_20140419\v060901\Common\Device\Dll\EtcCtrl\EtcCtrl.rc"" 
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP654.tmp" with contents
+[
+/nologo /Zp1 /MD /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_WINDLL" /D "_AFXDLL" /D "_MBCS" /D "_AFXEXT" /Fp"Release/EtcCtrl.pch" /Yu"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"D:\代码\总行A\v060901_20140419\v060901\Common\Device\Dll\EtcCtrl\EtcCtrl.cpp"
+"D:\代码\总行A\v060901_20140419\v060901\Common\Device\Dll\EtcCtrl\EtcDvr.cpp"
+"D:\代码\总行A\v060901_20140419\v060901\Common\Device\Dll\EtcCtrl\EtcWork.cpp"
+"D:\代码\总行A\v060901_20140419\v060901\Common\Device\Dll\EtcCtrl\SocketDvr.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP654.tmp" 
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP655.tmp" with contents
+[
+/nologo /Zp1 /MD /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_WINDLL" /D "_AFXDLL" /D "_MBCS" /D "_AFXEXT" /Fp"Release/EtcCtrl.pch" /Yc"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"D:\代码\总行A\v060901_20140419\v060901\Common\Device\Dll\EtcCtrl\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP655.tmp" 
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP656.tmp" with contents
+[
+CmnLib.lib /nologo /subsystem:windows /dll /incremental:no /pdb:"\T1Atm\App\LibRele/EtcCtrl.pdb" /machine:I386 /def:".\EtcCtrl.def" /out:"\T1Atm\App\ExeRele/EtcCtrl.dll" /implib:"\T1Atm\App\LibRele/EtcCtrl.lib" 
+".\Release\EtcCtrl.obj"
+".\Release\EtcDvr.obj"
+".\Release\EtcWork.obj"
+".\Release\SocketDvr.obj"
+".\Release\StdAfx.obj"
+".\Release\EtcCtrl.res"
+]
+Creating command line "link.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP656.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+EtcCtrl.cpp
+EtcDvr.cpp
+EtcWork.cpp
+SocketDvr.cpp
+Generating Code...
+Linking...
+   Creating library \T1Atm\App\LibRele/EtcCtrl.lib and object \T1Atm\App\LibRele/EtcCtrl.exp
+<h3>
+--------------------Configuration: DevCtrl - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x412 /fo"Release/DevCtrl.res" /d "NDEBUG" /d "_AFXDLL" "D:\代码\总行A\v060901_20140419\v060901\Common\Device\Dll\DevCtrl\DevCtrl.rc"" 
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP65A.tmp" with contents
+[
+/nologo /Zp1 /MD /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_WINDLL" /D "_AFXDLL" /D "_MBCS" /D "_AFXEXT" /FR"Release/" /Fp"Release/DevCtrl.pch" /Yu"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"D:\代码\总行A\v060901_20140419\v060901\Common\Device\Dll\DevCtrl\DevApl.cpp"
+"D:\代码\总行A\v060901_20140419\v060901\Common\Device\Dll\DevCtrl\DevApm.cpp"
+"D:\代码\总行A\v060901_20140419\v060901\Common\Device\Dll\DevCtrl\DevCallBack.cpp"
+"D:\代码\总行A\v060901_20140419\v060901\Common\Device\Dll\DevCtrl\DevCmn.cpp"
+"D:\代码\总行A\v060901_20140419\v060901\Common\Device\Dll\DevCtrl\DevCom.cpp"
+"D:\代码\总行A\v060901_20140419\v060901\Common\Device\Dll\DevCtrl\DevCsh.cpp"
+"D:\代码\总行A\v060901_20140419\v060901\Common\Device\Dll\DevCtrl\DevCtrl.cpp"
+"D:\代码\总行A\v060901_20140419\v060901\Common\Device\Dll\DevCtrl\DevEtc.cpp"
+"D:\代码\总行A\v060901_20140419\v060901\Common\Device\Dll\DevCtrl\DevNet.cpp"
+"D:\代码\总行A\v060901_20140419\v060901\Common\Device\Dll\DevCtrl\DevNms.cpp"
+"D:\代码\总行A\v060901_20140419\v060901\Common\Device\Dll\DevCtrl\DevScr.cpp"
+"D:\代码\总行A\v060901_20140419\v060901\Common\Device\Dll\DevCtrl\DevThread.cpp"
+"D:\代码\总行A\v060901_20140419\v060901\Common\Device\H\Dll\nhmwi.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP65A.tmp" 
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP65B.tmp" with contents
+[
+/nologo /Zp1 /MD /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_WINDLL" /D "_AFXDLL" /D "_MBCS" /D "_AFXEXT" /FR"Release/" /Fp"Release/DevCtrl.pch" /Yc"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"D:\代码\总行A\v060901_20140419\v060901\Common\Device\Dll\DevCtrl\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP65B.tmp" 
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP65C.tmp" with contents
+[
+shlwapi.lib wininet.lib CmnLib.lib EmvL2Kernel2.lib HS_EMVCORE.lib /nologo /subsystem:windows /dll /incremental:no /pdb:"\T1Atm\App\LibRele/DevCtrl.pdb" /machine:I386 /def:".\DevCtrl.def" /out:"\T1Atm\App\ExeRele/DevCtrl.dll" /implib:"\T1Atm\App\LibRele/DevCtrl.lib" 
+".\Release\DevApl.obj"
+".\Release\DevApm.obj"
+".\Release\DevCallBack.obj"
+".\Release\DevCmn.obj"
+".\Release\DevCom.obj"
+".\Release\DevCsh.obj"
+".\Release\DevCtrl.obj"
+".\Release\DevEtc.obj"
+".\Release\DevNet.obj"
+".\Release\DevNms.obj"
+".\Release\DevScr.obj"
+".\Release\DevThread.obj"
+".\Release\nhmwi.obj"
+".\Release\StdAfx.obj"
+".\Release\DevCtrl.res"
+"\T1Atm\App\LibRele\NetCtrl.lib"
+"\T1Atm\App\LibRele\ProCtrl.lib"
+"\T1Atm\App\LibRele\ComCtrl.lib"
+"\T1Atm\App\LibRele\LanCtrl.lib"
+"\T1Atm\App\LibRele\NmsCtrl.lib"
+"\T1Atm\App\LibRele\EtcCtrl.lib"
+]
+Creating command line "link.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP65C.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+DevApl.cpp
+DevApm.cpp
+DevCallBack.cpp
+DevCmn.cpp
+DevCom.cpp
+DevCsh.cpp
+DevCtrl.cpp
+DevEtc.cpp
+DevNet.cpp
+DevNms.cpp
+DevScr.cpp
+DevThread.cpp
+nhmwi.cpp
+Generating Code...
+Linking...
+   Creating library \T1Atm\App\LibRele/DevCtrl.lib and object \T1Atm\App\LibRele/DevCtrl.exp
+LINK : warning LNK4089: all references to "WININET.dll" discarded by /OPT:REF
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP660.tmp" with contents
+[
+/nologo /o"\T1Atm\App\LibRele/DevCtrl.bsc" 
+".\Release\StdAfx.sbr"
+".\Release\DevApl.sbr"
+".\Release\DevApm.sbr"
+".\Release\DevCallBack.sbr"
+".\Release\DevCmn.sbr"
+".\Release\DevCom.sbr"
+".\Release\DevCsh.sbr"
+".\Release\DevCtrl.sbr"
+".\Release\DevEtc.sbr"
+".\Release\DevNet.sbr"
+".\Release\DevNms.sbr"
+".\Release\DevScr.sbr"
+".\Release\DevThread.sbr"
+".\Release\nhmwi.sbr"]
+Creating command line "bscmake.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP660.tmp"
+Creating browse info file...
+<h3>Output Window</h3>
+
+
+
+<h3>Results</h3>
+DevCtrl.dll - 0 error(s), 1 warning(s)
+</pre>
+</body>
+</html>

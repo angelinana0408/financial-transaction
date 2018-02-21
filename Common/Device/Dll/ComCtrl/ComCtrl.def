@@ -1,0 +1,7 @@
+; ComCtrl.def : Declares the module parameters for the DLL.
+
+LIBRARY      "ComCtrl"
+DESCRIPTION  'ComCtrl Windows Dynamic Link Library'
+
+EXPORTS
+    ; Explicit exports can go here

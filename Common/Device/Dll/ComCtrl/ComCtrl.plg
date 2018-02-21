@@ -1,0 +1,55 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: ComCtrl - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\user\LOCALS~1\Temp\RSP137.tmp" with contents
+[
+/nologo /Zp1 /MD /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_WINDLL" /D "_AFXDLL" /D "_MBCS" /D "_AFXEXT" /Fp"Release/ComCtrl.pch" /Yu"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"D:\UserOut\New\Common050103(C0007)\Src\Device\Dll\ComCtrl\ComEtc.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\user\LOCALS~1\Temp\RSP137.tmp" 
+Creating temporary file "C:\DOCUME~1\user\LOCALS~1\Temp\RSP138.tmp" with contents
+[
+CmnLib.lib /nologo /subsystem:windows /dll /incremental:no /pdb:"\T1Atm\App\LibRele/ComCtrl.pdb" /machine:I386 /def:".\ComCtrl.def" /out:"\T1Atm\App\ExeRele/ComCtrl.dll" /implib:"\T1Atm\App\LibRele/ComCtrl.lib" 
+".\Release\ComCtrl.obj"
+".\Release\ComDvr.obj"
+".\Release\ComEtc.obj"
+".\Release\ComIrd.obj"
+".\Release\ComPort.obj"
+".\Release\ComRic.obj"
+".\Release\ComUps.obj"
+".\Release\Serial.obj"
+".\Release\StdAfx.obj"
+".\Release\ComCtrl.res"
+]
+Creating command line "link.exe @C:\DOCUME~1\user\LOCALS~1\Temp\RSP138.tmp"
+<h3>Output Window</h3>
+Compiling...
+ComEtc.cpp
+Linking...
+   Creating library \T1Atm\App\LibRele/ComCtrl.lib and object \T1Atm\App\LibRele/ComCtrl.exp
+ComIrd.obj : error LNK2001: unresolved external symbol _TcOpenComm
+ComIrd.obj : error LNK2001: unresolved external symbol _TcCloseComm
+ComIrd.obj : error LNK2001: unresolved external symbol _TcSubDev
+ComIrd.obj : error LNK2001: unresolved external symbol _TcVeriMatch
+ComRic.obj : error LNK2001: unresolved external symbol _dc_beep@8
+ComRic.obj : error LNK2001: unresolved external symbol _dc_init@8
+ComRic.obj : error LNK2001: unresolved external symbol _dc_exit@4
+ComRic.obj : error LNK2001: unresolved external symbol _dc_reset@8
+ComRic.obj : error LNK2001: unresolved external symbol _dc_card@12
+ComRic.obj : error LNK2001: unresolved external symbol _dc_pro_resethex@12
+ComRic.obj : error LNK2001: unresolved external symbol _dc_pro_commandlink@28
+\T1Atm\App\ExeRele/ComCtrl.dll : fatal error LNK1120: 11 unresolved externals
+Error executing link.exe.
+
+
+
+<h3>Results</h3>
+ComCtrl.dll - 12 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

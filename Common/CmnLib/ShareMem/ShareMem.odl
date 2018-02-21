@@ -1,0 +1,58 @@
+// ShareMem.odl : type library source for ActiveX Control project.
+
+#include <olectl.h>
+#include <idispids.h>
+
+[ uuid(7098DA12-C289-4D87-A02E-1AFAD02FEAEE), version(1.0),
+  helpfile("ShareMem.hlp"),
+  helpstring("ShareMem ActiveX Control module"),
+  control ]
+library SHAREMEMLib
+{
+	importlib(STDOLE_TLB);
+	importlib(STDTYPE_TLB);
+
+	[ uuid(87EAB939-A5AC-454D-88C9-EFAB91AC3F52),
+	  helpstring("Dispatch interface for ShareMem Control"), hidden ]
+	dispinterface _DShareMem
+	{
+		properties:
+			//{{AFX_ODL_PROP(CShareMemCtrl)
+			//}}AFX_ODL_PROP
+
+		methods:
+			//{{AFX_ODL_METHOD(CShareMemCtrl)
+			[id(1)] long OpenShareData();
+			[id(2)] long CloseShareData();
+			[id(3)] long ClearShareData();
+			[id(4)] BSTR GetShareData(BSTR szGetDataName);
+			[id(5)] long SetShareData(BSTR szSetDataName, BSTR szSetDataValue);
+			//}}AFX_ODL_METHOD
+
+			[id(DISPID_ABOUTBOX)] void AboutBox();
+	};
+
+	[ uuid(8AD0E5F5-5C6B-4E58-AC1F-D4EAC6AA5A9B),
+	  helpstring("Event interface for ShareMem Control") ]
+	dispinterface _DShareMemEvents
+	{
+		properties:
+			//  Event interface has no properties
+
+		methods:
+			//{{AFX_ODL_EVENT(CShareMemCtrl)
+			//}}AFX_ODL_EVENT
+	};
+
+	[ uuid(052AFE3A-BD56-473A-872E-69560FD96CFE),
+	  helpstring("ShareMem Control"), control ]
+	coclass ShareMem
+	{
+		[default] dispinterface _DShareMem;
+		[default, source] dispinterface _DShareMemEvents;
+	};
+
+
+	//{{AFX_APPEND_ODL}}
+	//}}AFX_APPEND_ODL}}
+};

@@ -1,0 +1,52 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: NmsCtrl - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x804 /fo"Release/NmsCtrl.res" /d "NDEBUG" /d "_AFXDLL" "D:\UserOut\New\Common050102\Src\Device\Dll\NmsCtrl\NmsCtrl.rc"" 
+Creating temporary file "C:\DOCUME~1\cmcdosa\LOCALS~1\Temp\RSP230.tmp" with contents
+[
+/nologo /MD /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_WINDLL" /D "_AFXDLL" /D "_MBCS" /D "_AFXEXT" /Fp"Release/NmsCtrl.pch" /Yu"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"D:\UserOut\New\Common050102\Src\Device\Dll\NmsCtrl\DcNms.cpp"
+"D:\UserOut\New\Common050102\Src\Device\Dll\NmsCtrl\NmsCtrl.cpp"
+"D:\UserOut\New\Common050102\Src\Device\Dll\NmsCtrl\SocketNms.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\cmcdosa\LOCALS~1\Temp\RSP230.tmp" 
+Creating temporary file "C:\DOCUME~1\cmcdosa\LOCALS~1\Temp\RSP231.tmp" with contents
+[
+/nologo /MD /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_WINDLL" /D "_AFXDLL" /D "_MBCS" /D "_AFXEXT" /Fp"Release/NmsCtrl.pch" /Yc"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"D:\UserOut\New\Common050102\Src\Device\Dll\NmsCtrl\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\cmcdosa\LOCALS~1\Temp\RSP231.tmp" 
+Creating temporary file "C:\DOCUME~1\cmcdosa\LOCALS~1\Temp\RSP232.tmp" with contents
+[
+CmnLib.lib /nologo /subsystem:windows /dll /incremental:no /pdb:"Release/NmsCtrl.pdb" /machine:I386 /def:".\NmsCtrl.def" /out:"\T1Atm\App\ExeRele/NmsCtrl.dll" /implib:"Release/NmsCtrl.lib" 
+.\Release\DcNms.obj
+.\Release\NmsCtrl.obj
+.\Release\SocketNms.obj
+.\Release\StdAfx.obj
+.\Release\NmsCtrl.res
+]
+Creating command line "link.exe @C:\DOCUME~1\cmcdosa\LOCALS~1\Temp\RSP232.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+DcNms.cpp
+NmsCtrl.cpp
+SocketNms.cpp
+Generating Code...
+Linking...
+   Creating library Release/NmsCtrl.lib and object Release/NmsCtrl.exp
+
+
+
+<h3>Results</h3>
+NmsCtrl.dll - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

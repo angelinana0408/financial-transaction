@@ -1,0 +1,73 @@
+// RearAp.odl : type library source for ActiveX Control project.
+
+// This file will be processed by the Make Type Library (mktyplib) tool to
+// produce the type library (RearAp.tlb) that will become a resource in
+// RearAp.ocx.
+
+#include <olectl.h>
+#include <idispids.h>
+
+[ uuid(341CA0A0-40C6-42CD-A343-887D59CBCF00), version(1.0),
+  helpfile("RearAp.hlp"),
+  helpstring("RearAp ActiveX Control module"),
+  control ]
+library REARAPLib
+{
+	importlib(STDOLE_TLB);
+	importlib(STDTYPE_TLB);
+
+	//  Primary dispatch interface for CRearApCtrl
+
+	[ uuid(4205D536-AB67-45D3-B6E7-5677810585B5),
+	  helpstring("Dispatch interface for RearAp Control"), hidden ]
+	dispinterface _DRearAp
+	{
+		properties:
+			// NOTE - ClassWizard will maintain property information here.
+			//    Use extreme caution when editing this section.
+			//{{AFX_ODL_PROP(CRearApCtrl)
+			//}}AFX_ODL_PROP
+
+		methods:
+			// NOTE - ClassWizard will maintain method information here.
+			//    Use extreme caution when editing this section.
+			//{{AFX_ODL_METHOD(CRearApCtrl)
+			[id(1)] long RearStart();
+			[id(2)] long SetScreenData(BSTR SetScreenDataName, BSTR SetScreenDataValue);
+			[id(3)] long TraceDump(BSTR szTraceData);
+			//}}AFX_ODL_METHOD
+
+			[id(DISPID_ABOUTBOX)] void AboutBox();
+	};
+
+	//  Event dispatch interface for CRearApCtrl
+
+	[ uuid(40AC1AB7-3A32-42B0-B4E6-CF3345C734AF),
+	  helpstring("Event interface for RearAp Control") ]
+	dispinterface _DRearApEvents
+	{
+		properties:
+			//  Event interface has no properties
+
+		methods:
+			// NOTE - ClassWizard will maintain event information here.
+			//    Use extreme caution when editing this section.
+			//{{AFX_ODL_EVENT(CRearApCtrl)
+			[id(1)] void OnDisplayData(BSTR szDataName, BSTR szDataValue);
+			//}}AFX_ODL_EVENT
+	};
+
+	//  Class information for CRearApCtrl
+
+	[ uuid(231AC0D1-5B4E-4359-9D8C-3E0DA06BB609),
+	  helpstring("RearAp Control"), control ]
+	coclass RearAp
+	{
+		[default] dispinterface _DRearAp;
+		[default, source] dispinterface _DRearApEvents;
+	};
+
+
+	//{{AFX_APPEND_ODL}}
+	//}}AFX_APPEND_ODL}}
+};

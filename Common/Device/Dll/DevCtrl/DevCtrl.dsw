@@ -1,0 +1,122 @@
+Microsoft Developer Studio Workspace File, Format Version 6.00
+# WARNING: DO NOT EDIT OR DELETE THIS WORKSPACE FILE!
+
+###############################################################################
+
+Project: "ComCtrl"=..\ComCtrl\ComCtrl.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+}}}
+
+###############################################################################
+
+Project: "DevCtrl"=.\DevCtrl.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+    Begin Project Dependency
+    Project_Dep_Name NetCtrl
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name ProCtrl
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name ComCtrl
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name LanCtrl
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name NmsCtrl
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name EtcCtrl
+    End Project Dependency
+}}}
+
+###############################################################################
+
+Project: "EtcCtrl"=..\EtcCtrl\EtcCtrl.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+}}}
+
+###############################################################################
+
+Project: "LanCtrl"=..\LanCtrl\LanCtrl.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+}}}
+
+###############################################################################
+
+Project: "NetCtrl"=..\NetCtrl\NetCtrl.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+    Begin Project Dependency
+    Project_Dep_Name ProCtrl
+    End Project Dependency
+}}}
+
+###############################################################################
+
+Project: "NmsCtrl"=..\NmsCtrl\NmsCtrl.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+}}}
+
+###############################################################################
+
+Project: "ProCtrl"=..\ProCtrl\ProCtrl.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+}}}
+
+###############################################################################
+
+Global:
+
+Package=<5>
+{{{
+}}}
+
+Package=<3>
+{{{
+}}}
+
+###############################################################################
+

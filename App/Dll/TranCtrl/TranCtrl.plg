@@ -1,0 +1,76 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: TranCtrl - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP8B.tmp" with contents
+[
+CmnLib.lib DevCtrl.lib ProCtrl.lib NetCtrl.lib ComCtrl.lib wininet.lib /nologo /subsystem:windows /dll /incremental:yes /pdb:"\T1Atm\App\LibDebug/TranCtrl.pdb" /debug /machine:I386 /def:".\TranCtrl.def" /out:"\T1Atm\App\ExeDebug/TranCtrl.dll" /implib:"\T1Atm\App\LibDebug/TranCtrl.lib" /pdbtype:sept 
+.\Debug\TranBeginProc.obj
+.\Debug\TranDepProc.obj
+.\Debug\TranEndProc.obj
+.\Debug\TranFuncProc.obj
+.\Debug\TranIcProc.obj
+.\Debug\TranInqProc.obj
+.\Debug\TranPbProc.obj
+.\Debug\TranTranProc.obj
+.\Debug\TranTransProc.obj
+.\Debug\TranWithProc.obj
+.\Debug\StdAfx.obj
+.\Debug\TranAtmpProc.obj
+.\Debug\TranCmn.obj
+.\Debug\TranCtrl.obj
+.\Debug\TranDevProc.obj
+.\Debug\TranDvr.obj
+.\Debug\TranHostProc.obj
+.\Debug\TranInputProc.obj
+.\Debug\TranLibProc.obj
+.\Debug\TranMainProc.obj
+.\Debug\TranMenuProc.obj
+.\Debug\TranNmsProc.obj
+.\Debug\TranOutputProc.obj
+.\Debug\TranTermProc.obj
+.\Debug\TranCtrl.res
+]
+Creating command line "link.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP8B.tmp"
+<h3>Output Window</h3>
+Linking...
+   Creating library \T1Atm\App\LibDebug/TranCtrl.lib and object \T1Atm\App\LibDebug/TranCtrl.exp
+TranOutputProc.obj : error LNK2001: unresolved external symbol "public: virtual __thiscall CLanPort::~CLanPort(void)" (??1CLanPort@@UAE@XZ)
+TranTermProc.obj : error LNK2001: unresolved external symbol "public: virtual __thiscall CLanPort::~CLanPort(void)" (??1CLanPort@@UAE@XZ)
+TranLibProc.obj : error LNK2001: unresolved external symbol "public: virtual __thiscall CLanPort::~CLanPort(void)" (??1CLanPort@@UAE@XZ)
+TranMainProc.obj : error LNK2001: unresolved external symbol "public: virtual __thiscall CLanPort::~CLanPort(void)" (??1CLanPort@@UAE@XZ)
+TranMenuProc.obj : error LNK2001: unresolved external symbol "public: virtual __thiscall CLanPort::~CLanPort(void)" (??1CLanPort@@UAE@XZ)
+TranNmsProc.obj : error LNK2001: unresolved external symbol "public: virtual __thiscall CLanPort::~CLanPort(void)" (??1CLanPort@@UAE@XZ)
+TranDevProc.obj : error LNK2001: unresolved external symbol "public: virtual __thiscall CLanPort::~CLanPort(void)" (??1CLanPort@@UAE@XZ)
+TranDvr.obj : error LNK2001: unresolved external symbol "public: virtual __thiscall CLanPort::~CLanPort(void)" (??1CLanPort@@UAE@XZ)
+TranHostProc.obj : error LNK2001: unresolved external symbol "public: virtual __thiscall CLanPort::~CLanPort(void)" (??1CLanPort@@UAE@XZ)
+TranInputProc.obj : error LNK2001: unresolved external symbol "public: virtual __thiscall CLanPort::~CLanPort(void)" (??1CLanPort@@UAE@XZ)
+TranTransProc.obj : error LNK2001: unresolved external symbol "public: virtual __thiscall CLanPort::~CLanPort(void)" (??1CLanPort@@UAE@XZ)
+TranWithProc.obj : error LNK2001: unresolved external symbol "public: virtual __thiscall CLanPort::~CLanPort(void)" (??1CLanPort@@UAE@XZ)
+TranAtmpProc.obj : error LNK2001: unresolved external symbol "public: virtual __thiscall CLanPort::~CLanPort(void)" (??1CLanPort@@UAE@XZ)
+TranCmn.obj : error LNK2001: unresolved external symbol "public: virtual __thiscall CLanPort::~CLanPort(void)" (??1CLanPort@@UAE@XZ)
+TranIcProc.obj : error LNK2001: unresolved external symbol "public: virtual __thiscall CLanPort::~CLanPort(void)" (??1CLanPort@@UAE@XZ)
+TranInqProc.obj : error LNK2001: unresolved external symbol "public: virtual __thiscall CLanPort::~CLanPort(void)" (??1CLanPort@@UAE@XZ)
+TranPbProc.obj : error LNK2001: unresolved external symbol "public: virtual __thiscall CLanPort::~CLanPort(void)" (??1CLanPort@@UAE@XZ)
+TranTranProc.obj : error LNK2001: unresolved external symbol "public: virtual __thiscall CLanPort::~CLanPort(void)" (??1CLanPort@@UAE@XZ)
+TranBeginProc.obj : error LNK2001: unresolved external symbol "public: virtual __thiscall CLanPort::~CLanPort(void)" (??1CLanPort@@UAE@XZ)
+TranDepProc.obj : error LNK2001: unresolved external symbol "public: virtual __thiscall CLanPort::~CLanPort(void)" (??1CLanPort@@UAE@XZ)
+TranEndProc.obj : error LNK2001: unresolved external symbol "public: virtual __thiscall CLanPort::~CLanPort(void)" (??1CLanPort@@UAE@XZ)
+TranFuncProc.obj : error LNK2001: unresolved external symbol "public: virtual __thiscall CLanPort::~CLanPort(void)" (??1CLanPort@@UAE@XZ)
+TranCmn.obj : error LNK2001: unresolved external symbol "int __cdecl fnAPP_OpenComm(char const *,int,int,int,int)" (?fnAPP_OpenComm@@YAHPBDHHHH@Z)
+TranLibProc.obj : error LNK2001: unresolved external symbol _Send2AMAS@16
+TranLibProc.obj : error LNK2001: unresolved external symbol _CloseAgentService@0
+\T1Atm\App\ExeDebug/TranCtrl.dll : fatal error LNK1120: 4 unresolved externals
+Error executing link.exe.
+
+
+
+<h3>Results</h3>
+TranCtrl.dll - 26 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
